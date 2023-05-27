@@ -3,7 +3,6 @@ numpy
 uvicorn==0.22.0
 fastApi
 pydantic
-pickle
 gunicorn
 uvloop
 httptools
