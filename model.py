@@ -27,7 +27,7 @@ le = pickle.load(open('le.pkl','rb'))
 #     specified_date = datetime.strptime(date_string, '%Y-%m-%d').date()
 #     days_difference = (today - specified_date).days
 #     return days_difference
-
+# hello
 # ALSO CHANGE THE NAME OF THE FILE HERE SHREYAS
 # with open(f"{BASE_DIR}/trained_pipeline-1.0.0.pkl","rb") as f:
 #     model = pickle.load(f)
