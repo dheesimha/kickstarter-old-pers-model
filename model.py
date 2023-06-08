@@ -57,15 +57,15 @@ def predict_pipeline(advert,age_fund,age_mile,relation_score,signi_event,second_
 
     # X_train = pd.DataFrame(data)
     if(age_fund == 0 and age_mile == 0 and top500 == 'Yes'):
-        suc = 1
+        suc = 0
         return suc
     
     if(relation_score == 100):
-        suc = 1
+        suc = 0
         return suc
     
     if(signi_event > 9):
-        suc = 1
+        suc = 0
         return suc
         
     int_features = [0]*8
